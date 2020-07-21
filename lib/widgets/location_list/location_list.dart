@@ -4,8 +4,8 @@ import 'dart:convert';
 import '../card/card.dart' as CustomCards;
 
 class LocationList extends StatelessWidget {
-  // final locationUrl = "https://storage.googleapis.com/turkeysim/locations.json";
-  final locationUrl = "http://10.0.2.2:8000/locations.json";
+  final locationUrl = "https://storage.googleapis.com/turkeysim/locations.json";
+  // final locationUrl = "http://10.0.2.2:8000/locations.json";
   Future fetchLocations() async {
     final response = await http.get(locationUrl);
     if (response.statusCode == 200) {
