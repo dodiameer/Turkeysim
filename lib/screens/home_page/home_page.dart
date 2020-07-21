@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.white,
       ),
-      backgroundColor: Colors.grey[100],
+      backgroundColor: Colors.grey[300],
       body: Container(child: LocationList()),
     );
   }
