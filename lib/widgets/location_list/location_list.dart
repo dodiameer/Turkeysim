@@ -33,6 +33,7 @@ class LocationList extends StatelessWidget {
                 onTap: () => Navigator.pushNamed(context, '/location_details',
                     arguments: Location(
                         snapshot.data[index]["name"].toString(),
+                        snapshot.data[index]["short_name"].toString(),
                         snapshot.data[index]["short_description"].toString(),
                         snapshot.data[index]["description"].toString(),
                         snapshot.data[index]["image"].toString())),

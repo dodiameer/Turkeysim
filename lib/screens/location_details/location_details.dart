@@ -7,7 +7,7 @@ class LocationDetailsScreen extends StatelessWidget {
     final Location args = ModalRoute.of(context).settings.arguments;
     return Scaffold(
       appBar: AppBar(
-        title: Text(args.name),
+        title: Text(args.shortName),
         textTheme: Theme.of(context).primaryTextTheme,
         centerTitle: true,
         backgroundColor: Colors.white,
