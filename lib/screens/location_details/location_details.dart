@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import '../../models/location/location.dart';
+import '../../widgets/location_details/location_details.dart';
 
-class LocationDetails extends StatelessWidget {
+class LocationDetailsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final Location args = ModalRoute.of(context).settings.arguments;
     return Scaffold(
@@ -15,11 +16,8 @@ class LocationDetails extends StatelessWidget {
           color: Colors.black,
         ),
       ),
-      backgroundColor: Colors.grey[300],
-      body: Container(
-          child: Center(
-        child: Text(args.name),
-      )),
+      backgroundColor: Colors.white,
+      body: LocationDetailsWidget(args.name, args.description, args.image),
     );
   }
 }

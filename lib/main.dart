@@ -20,12 +20,17 @@ class MyApp extends StatelessWidget {
             headline1: TextStyle(
                 fontSize: 24.0,
                 fontWeight: FontWeight.w600,
-                color: Colors.black)),
+                color: Colors.black),
+            headline2: TextStyle(
+                fontSize: 28.0,
+                fontWeight: FontWeight.w600,
+                color: Colors.black),
+            bodyText1: TextStyle(fontSize: 20.0, color: Colors.black)),
       ),
       initialRoute: '/',
       routes: {
         '/': (context) => HomePage(),
-        '/location_details': (context) => LocationDetails()
+        '/location_details': (context) => LocationDetailsScreen()
       },
     );
   }
