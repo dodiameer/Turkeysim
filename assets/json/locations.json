@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Ayasofya (Hagia Sofia)",
+        "short_description": "A great antique place of worship located in the heart of Istanbul",
+        "description": "A great antique place.\nOriginally a church, it was turned into a mosque and now into a museum.",
+        "image": "https://storage.googleapis.com/turkeysim/images/ayasofya.jpg"
+    },
+    {
+        "name": "Bosphorous",
+        "short_description": "A narrow, natural strait and an internationally significant waterway located in northwestern Turkey.",
+        "description": "A narrow, natural strait and an internationally significant waterway located in northwestern Turkey. It forms part of the continental boundary between Europe and Asia, and divides Turkey by separating Anatolia from Thrace.",
+        "image": "https://storage.googleapis.com/turkeysim/images/bosphorous.jpg"
+    },
+    {
+        "name": "Eminonu",
+        "short_description": "This is the heart of the walled city of Constantine, the focus of a history of incredible richness. Eminonu covers roughly the area on which the ancient city of Byzantium was built. The Galata Bridge crosses the Golden Horn and connects Karakoy (historic Galata) at north with Eminonu at south.",
+        "description": "This is the heart of the walled city of Constantine, the focus of a history of incredible richness. Eminonu covers roughly the area on which the ancient city of Byzantium was built. The Galata Bridge crosses the Golden Horn and connects Karakoy (historic Galata) at north with Eminonu at south.\n\nEminonu is located at the point where the Golden Horn connects with the southern entrance of the Bosphorus strait, near the Sea of Marmara. Up on the hill stands Topkapi Palace, the Blue Mosque (Sultanahmet Camii) and Hagia Sophia (Aya Sofya). It was a part of the Fatih district until 1928, which covered the whole peninsular area (the old Stamboul) within the Roman city walls - that area which was formerly the Byzantine capital Constantinople. Since the resident population of Eminonu is low today, it rejoined the capital district Fatih in 2009.",
+        "image": "https://storage.googleapis.com/turkeysim/images/eminonu.jpg"
+    },
+    {
+        "name": "Istiklal Street",
+        "short_description": "Istiklal Street (Independence Avenue) is one of the most famous avenues in Istanbul, Turkey, visited by nearly 3 million people in a single day over the course of weekends.",
+        "description": "Istiklal Street (Independence Avenue) is one of the most famous avenues in Istanbul, Turkey, visited by nearly 3 million people in a single day over the course of weekends.\nLocated in the historic Beyoglu (Pera) district, it is an elegant pedestrian street, 1.4 kilometres (0.87 mi) long, which houses boutiques, music stores, bookstores, art galleries, cinemas, theatres, libraries, cafés, pubs, nightclubs with live music, historical patisseries, chocolateries and restaurants.\n\nThe avenue, surrounded by late Ottoman era buildings (mostly from the 19th and early 20th centuries) that were designed with the Neo-Classical, Neo-Gothic, Renaissance Revival, Beaux-Arts, Art Nouveau and First Turkish National Architecture styles; as well as a few Art Deco style buildings from the early years of the Turkish Republic, and a number of more recent examples of modern architecture; starts from the medieval Genoese neighbourhood around Galata Tower and ultimately leads up to Taksim Square.\nGalatasaray Square is located at approximately the center of the avenue and is home to the oldest secondary school in Turkey: the Galatasaray High School (Galatasaray Lisesi), originally known as the Galata Sarayı Enderun-u Humayunu (Galata Palace Imperial School).\nIn the historic Karakoy (Galata) district towards the southern end of the avenue, it is possible to see the world's second-oldest subway station, generally known and referred to as simply Tünel (The Tunnel) which entered service in 1875. Moreover, one of the finest educational institutions established in Turkey, the German High School of Istanbul (Deutsche Schule Istanbul in German, Ozel Alman Lisesi in Turkish) is also located near Tunel.",
+        "image": "https://storage.googleapis.com/turkeysim/images/taksim-street.jpg"
+    }
+]
