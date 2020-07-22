@@ -7,9 +7,7 @@ class LocationDetailsWidget extends StatelessWidget {
   LocationDetailsWidget(this._name, this._description, this._image);
 
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.start,
-      crossAxisAlignment: CrossAxisAlignment.stretch,
+    return ListView(
       children: <Widget>[
         Container(
           child: Image.network(this._image),
@@ -26,6 +24,7 @@ class LocationDetailsWidget extends StatelessWidget {
             child: Text(
               this._description,
               style: Theme.of(context).primaryTextTheme.bodyText1,
+              overflow: TextOverflow.clip,
             ),
             margin: EdgeInsets.fromLTRB(12.0, 4.0, 12.0, 4.0))
       ],
