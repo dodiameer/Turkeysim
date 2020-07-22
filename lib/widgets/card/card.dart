@@ -42,7 +42,7 @@ class LocationCard extends StatelessWidget {
                     _description,
                     style: TextStyle(fontSize: 20.0),
                   ),
-                  padding: EdgeInsets.fromLTRB(8.0, 16.0, 8.0, 16.0))
+                  padding: EdgeInsets.fromLTRB(8.0, 0.0, 8.0, 16.0))
             ]));
   }
 }
