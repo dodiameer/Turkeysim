@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './screens/home_page/home_page.dart';
+import './screens/location_details/location_details.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,7 +22,11 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.w600,
                 color: Colors.black)),
       ),
-      home: HomePage(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => HomePage(),
+        '/location_details': (context) => LocationDetails()
+      },
     );
   }
 }

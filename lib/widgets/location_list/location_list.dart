@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import '../card/card.dart' as CustomCards;
+import '../../models/location/location.dart';
 
 class LocationList extends StatelessWidget {
   final locationUrl = "https://storage.googleapis.com/turkeysim/locations.json";
@@ -23,10 +24,18 @@ class LocationList extends StatelessWidget {
           return ListView.builder(
             itemCount: snapshot.data.length,
             itemBuilder: (context, index) {
-              return CustomCards.LocationCard(
-                  snapshot.data[index]["image"],
-                  snapshot.data[index]["name"],
-                  snapshot.data[index]["short_description"]);
+              return GestureDetector(
+                child: CustomCards.LocationCard(
+                    snapshot.data[index]["image"],
+                    snapshot.data[index]["name"],
+                    snapshot.data[index]["short_description"]),
+                onTap: () => Navigator.pushNamed(context, '/location_details',
+                    arguments: Location(
+                        snapshot.data[index]["name"].toString(),
+                        snapshot.data[index]["short_description"].toString(),
+                        snapshot.data[index]["description"].toString(),
+                        snapshot.data[index]["image"].toString())),
+              );
             },
           );
         }
